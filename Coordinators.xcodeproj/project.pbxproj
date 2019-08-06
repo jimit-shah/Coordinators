@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EFDC0AAC22F8FD750028BECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AAB22F8FD750028BECF /* AppDelegate.swift */; };
-		EFDC0AAE22F8FD750028BECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AAD22F8FD750028BECF /* ViewController.swift */; };
+		EFDC0AAE22F8FD750028BECF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AAD22F8FD750028BECF /* MainViewController.swift */; };
 		EFDC0AB122F8FD750028BECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDC0AAF22F8FD750028BECF /* Main.storyboard */; };
 		EFDC0AB322F8FD760028BECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDC0AB222F8FD760028BECF /* Assets.xcassets */; };
 		EFDC0AB622F8FD760028BECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDC0AB422F8FD760028BECF /* LaunchScreen.storyboard */; };
 		EFDC0AC122F8FD770028BECF /* CoordinatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AC022F8FD770028BECF /* CoordinatorsTests.swift */; };
+		EFDC0ACC22F8FE410028BECF /* Coordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0ACB22F8FE410028BECF /* Coordinators.swift */; };
+		EFDC0ACE22F8FED00028BECF /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0ACD22F8FED00028BECF /* Storyboarded.swift */; };
+		EFDC0AD022F900490028BECF /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0ACF22F900490028BECF /* MainCoordinator.swift */; };
+		EFDC0AD222F902FF0028BECF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AD122F902FF0028BECF /* LoginViewController.swift */; };
+		EFDC0AD422F9031C0028BECF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC0AD322F9031C0028BECF /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,7 @@
 /* Begin PBXFileReference section */
 		EFDC0AA822F8FD750028BECF /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDC0AAB22F8FD750028BECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFDC0AAD22F8FD750028BECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFDC0AAD22F8FD750028BECF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EFDC0AB022F8FD750028BECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFDC0AB222F8FD760028BECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDC0AB522F8FD760028BECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		EFDC0ABC22F8FD770028BECF /* CoordinatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDC0AC022F8FD770028BECF /* CoordinatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsTests.swift; sourceTree = "<group>"; };
 		EFDC0AC222F8FD770028BECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDC0ACB22F8FE410028BECF /* Coordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinators.swift; sourceTree = "<group>"; };
+		EFDC0ACD22F8FED00028BECF /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		EFDC0ACF22F900490028BECF /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		EFDC0AD122F902FF0028BECF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EFDC0AD322F9031C0028BECF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				EFDC0AAB22F8FD750028BECF /* AppDelegate.swift */,
-				EFDC0AAD22F8FD750028BECF /* ViewController.swift */,
+				EFDC0AAD22F8FD750028BECF /* MainViewController.swift */,
 				EFDC0AAF22F8FD750028BECF /* Main.storyboard */,
 				EFDC0AB222F8FD760028BECF /* Assets.xcassets */,
 				EFDC0AB422F8FD760028BECF /* LaunchScreen.storyboard */,
 				EFDC0AB722F8FD760028BECF /* Info.plist */,
+				EFDC0ACB22F8FE410028BECF /* Coordinators.swift */,
+				EFDC0ACD22F8FED00028BECF /* Storyboarded.swift */,
+				EFDC0ACF22F900490028BECF /* MainCoordinator.swift */,
+				EFDC0AD122F902FF0028BECF /* LoginViewController.swift */,
+				EFDC0AD322F9031C0028BECF /* SignupViewController.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -197,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDC0AAE22F8FD750028BECF /* ViewController.swift in Sources */,
+				EFDC0AAE22F8FD750028BECF /* MainViewController.swift in Sources */,
+				EFDC0AD422F9031C0028BECF /* SignupViewController.swift in Sources */,
 				EFDC0AAC22F8FD750028BECF /* AppDelegate.swift in Sources */,
+				EFDC0ACC22F8FE410028BECF /* Coordinators.swift in Sources */,
+				EFDC0AD022F900490028BECF /* MainCoordinator.swift in Sources */,
+				EFDC0ACE22F8FED00028BECF /* Storyboarded.swift in Sources */,
+				EFDC0AD222F902FF0028BECF /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
